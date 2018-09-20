@@ -1,0 +1,26 @@
+.blockTimes{
+    width: 150px;
+    height: 30px;
+    font-family: sans-serif;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+.blockTimes:hover{
+    background: black;
+    color: white;
+    border: 1px solid;
+}
+.topLines{
+    min-height: 50px;
+    width: 100%;
+}
+.topLineText{
+    color: white;
+    font-size: 21px;
+}

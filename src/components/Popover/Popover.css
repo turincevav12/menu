@@ -1,0 +1,81 @@
+.mr-1{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: monospace;
+    user-select: none;
+    font-size: 21px;
+    background: #000000;
+    color: white;
+    border: 1px solid white;
+}
+
+.mr-1:hover{
+    background: white;
+    color: black;
+}
+
+.popoverHeader{
+    background: gray;
+    margin-top: 0px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.popover{
+    width: 250px;
+    height: auto;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.enterDopTimes{
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 35px;
+    margin: 10px auto;
+    user-select: none;
+    color: black;
+    border-radius: 4px;
+    font-size: 19px;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+.enterDopTimes:hover{
+    background: black;
+    color: white;
+}
+
+.enterDopTimes:active{
+    box-shadow: inset 0 0px 2px 2px;
+}
+
+.enterDopTimesFalse{
+    width: 90%;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 35px;
+    margin: 10px auto;
+    user-select: none;
+    background: #000000;
+    border-radius: 4px;
+    color: white;
+    font-size: 21px;
+}
+
+.arrow{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0vw;
+}
